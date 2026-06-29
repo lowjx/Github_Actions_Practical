@@ -34,8 +34,8 @@ jobs:
       
     - name: Build and push Docker image
       run: |
-        docker build -t bk255/pdf-extractor:latest .
-        docker push bk255/pdf-extractor:latest
+        docker build -t lowjx/pdf-extractor:latest .
+        docker push lowjx/pdf-extractor:latest
           
   
 
